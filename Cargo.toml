@@ -1,0 +1,20 @@
+[package]
+name = "bhop"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+pre1_54 = []
+
+[dependencies]
+libc = "0.2.85"
+ctor = "0.1.23"
+libloading = "0.7.3"
+memscan = "0.1.0"
+regex = "1.6.0"
+libudis86-sys = "0.2.1"
+detour = "0.8.1"
+inputbot = "0.5"
+
+[lib]
+crate-type = ["dylib"]
